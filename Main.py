@@ -25,7 +25,7 @@ class App(tk.Tk):
 		self.current_page = None      
 
 		self.bind('<Return>', self.searchFunction)
-		self.openPage("receiptPage", 8008144)
+		self.openPage("homePage")
 
 	## function: loadPage(page_name: str)
 	## This function is called to check if a class exists inside the pages directory
